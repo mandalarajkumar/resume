@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@500,600,700,800,900,200,300,400&display=swap');
+.
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'popins',sans-serif;
+
+}
+body
+{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #ffff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,1);
+
+}
+.container .leftside
+{
+    position: relative;
+    background:#003147;
+    padding: 40px;
+
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px silod rgba(255,255,255,0.2);
+}
+.profiletext .imgBx{
+position:relative;
+width: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+img{
+    border-radius: 100px;
+}
+.profiletext .imgBx img
+{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 50%%;
+    object-fit: cover;
+
+}
+ul {
+    list-style-type: none;
+}
+.profiletext h2
+{
+    color: #ffff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align:center;
+    font-weight: 500;
+    line-height: 1.4em;
+
+}
+.profiletext h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+.ContactInfo.EDUCATION li 
+{
+margin-bottom: 15px;
+}
+.ContactInfo.EDUCATION.h5
+{
+    font-weight: 500;
+}
+.ContactInfo.EDUCATION.h4
+{
+    color: #ffff;
+    font-weight: 500;
+}
+
+
+.container .rightside
+{
+    position: relative;
+    background:#ffff;
+    padding: 40px;
+    
+}
